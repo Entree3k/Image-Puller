@@ -1,0 +1,21 @@
+# Plex server configuration
+plex_url: 'SERVER-IP-HERE'
+plex_token: 'YOUR-TOKEN-HERE'
+
+# Output directory for downloaded artwork
+output_directory: 'output'
+
+# Number of concurrent download threads
+download_threads: 4
+
+# Library sections to process
+libraries:
+  movies:
+    - 'Movies'
+  tv_shows:
+    - 'TV Shows'
+
+# Logging configuration
+logging:
+  level: 'INFO'  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: 'plex_artwork.log'
